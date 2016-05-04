@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>注册领红包</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="dist/css/light7-swipeout.css">
+    <link rel="stylesheet" href="dist/css/light7-swiper.css">
+    <link rel="stylesheet" href="dist/css/light7.css">
+  </head>
+
+  <style type="text/css">
+  		.bg{
+        position:absolute; 
+        z-index:2100; 
+        top:0px; 
+        left:0px; 
+        width: 100%;
+        height: 100%;
+        background:rgb(50,50,50);
+        background:rgba(0,0,0,0.5); 
+        display:none;
+      }
+
+      .xieyi {
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+      }
+
+      .getCode {
+        width: 100px;
+        margin-left: 1rem;
+      }
+
+      .username {
+           margin-top: 1.5rem;
+           margin-left: 1rem;
+           width: 80%;
+      }
+
+      .userphonenumber {
+         margin-top: 0.5rem;
+         margin-left: 1rem;
+         width: 80%;
+      }
+
+      .code {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+      }
+
+      .userpassword {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        width: 80%;
+      }
+
+		.registContent{
+			display:none;
+      background-image:url(registBg.png);
+      -moz-background-size:100% 100%; /* 老版本的 Firefox */
+      background-size:100% 100%;
+			height:400px;
+			position:absolute;
+			top:20%;
+      left: 6%;
+      right: 6%;
+      z-index:2200;
+		}
+  		.bgDiv{
+  			margin-top: -26px;
+  			background: url(LuckyFooter.jpg);
+  			width: 100%;
+  			height: 300px;
+   		}
+   		.headerImage {
+   			width: 100%;
+   		}  
+  		.centerA{
+  			background: url(Regist.jpg);
+  		}
+
+  		.bgDiv p{
+		    width:90%;
+		    height:300px;
+		    line-height:300px;  /* 行高等于高度 */
+		}
+		 /* 兼容标准浏览器 */
+		.bgDiv p:before{
+		    content:".";  /* 具体的值与垂直居中无关，尽可能的节省字符 */
+		    margin-left:-5px; 
+        font-size:10px;  /* 修复居中的小BUG */
+		    visibility:hidden;  /*设置成隐藏元素*/
+		}
+		.bgDiv p img{
+		    *margin-top:expression((400 - this.height )/2);  /* CSS表达式用来兼容IE6/IE7 */
+		    vertical-align:middle;
+		}
+
+  </style>
+
+  <body>
+
+  <!-- page 2 -->
+<div class="page" id='chakanxieyi' style="z-index:2300">
+  <header class="bar bar-nav">
+    <a class="button button-link button-nav pull-left back" href="/docs-demos/router">
+      <span class="icon icon-left"></span>
+      返回
+    </a>
+    <h1 class='title'>用户注册协议</h1>
+  </header>
+  <div class="content">
+    <div class="content-block">
+            共信赢平台用户服务协议
+            深圳市共信赢金融信息服务有限公司（以下称“本公司”）是一家从事经济信息咨询、受托资产管理、投资咨询、投资管理等金融服务的公司，其运营管理的网站平台（域名：www.gxyclub.com）（以下简称“本网站”或“共信赢平台”）是一个为共信赢会员提供综合金融服务的网络平台。
+            在您注册成为本网站用户前，您须确保已充分阅读并理解本《用户服务协议》（以下称“本协议”）的所有条款，特别是其中所涉及的免除及限制本网站/本公司责任的条款、对用户权利限制条款等。请您审慎阅读并自愿选择接受或不接受本协议。您同意本协议条款并注册后，将有权依据本协议的条款接受本网站的服务，同时有义务接受本协议条款的约束。
+            一、本协议的文本
+            1.1您应在仔细阅读、充分理解并完全接受本协议的全部条款及本网站的全部规则后方能在本网站中进行注册，注册成功后，则视为您已认同本协议以及本网站中所有的网站规则/交易规则。本协议产生法律效力后，适用于您在本网站的全部活动。如有违反而导致任何法律后果的发生，您将以自己的名义独立承担相应的法律责任。 
+            1.2您须确认：本网站公布的规则为本协议不可分割的一部分，具有同等法律效力。且本网站有权在必要时单方修改或变更本协议之内容，增加、减少、修改或变更各类规则，并将通过本网站公布最新的服务协议及规则，不另作个别通知。经修订的协议一经在本网站公布后，立即自动生效。各类规则会在发布后生效，亦成为本协议的一部分，与协议正文具有同等法律效力。登录或继续使用本网站将表示会员接受经修订的协议。除另行明确声明外，任何使服务范围扩大或功能增强的新内容均受本协议约束。
+            1.3在本网站交易需订立的合同采用电子合同方式。注册会员使用会员账户登录本网站平台后，根据本网站的相关规则，以会员账户ID在本网站平台通过点击确认或类似方式签署的电子合同即视为注册会员本人真实意愿并以注册会员本人名义签署的合同，具有法律效力。注册会员应妥善保管自己的账户密码等账户信息，注册会员通过前述方式订立的电子合同对合同各方具有法律约束力，注册会员不得以其账户密码等账户信息被盗用或其他理由否认已订立的合同的效力或不按照该等合同履行相关义务。我们在此特别提醒您应避免选择过于简单、明显的单词或日期（包括但不限于姓名、昵称、生日等）作为账户密码。
+             
+            二、注册用户的身份限制
+            2.1作为本网站个人用户，您必须是中华人民共和国（“中国”，为本协议之目的，不包括香港特别行政区、澳门特别行政区及台湾地区）大陆公民，拥有中国大陆有效身份证件，年龄在18周岁以上，且具有完全的民事权利能力及民事行为能力。如不具备上述资格，您应立即停止在本网站的注册程序、停止使用本网站服务，本网站有权不经通知而随时终止您的注册进程及本网站服务，您应对您的注册给本网站带来的损失承担全额赔偿责任，且您的监护人（如您为限制民事行为能力人或无民事行为能力人）应承担连带责任。
+            2.2您必须依本网站服务注册表的提示提供真实、最新、有效及完整的资料；如您提交的任何资料或信息出现变更，您应在变更当日向本网站提交变更后的资料和信息，由于资料或信息变更影响您使用本网站服务或因未能按时提交变更后的资料或信息影响您使用本网站服务的，本网站不承担任何责任。
+            2.3您须保证并承诺通过本网站用于交易的资金来源合法，为您的闲置资产，且该资金的使用不影响您的正常生活。
+            2.4在您发生如下情形的情况下，本网站有权通过本协议第3.3条约定的通知方式告知您终止本协议、关闭您的账户或者限制您使用本网站：
+            （1）如您提供的个人资料不真实、不完整；
+            （2）如您利用本网站从事任何非法活动；
+            （3）如您的会员账户涉嫌洗钱、套现、传销、被冒用或存在其他风险；
+            （4）如您未按照与本公司签署的具体协议以及本网站公布的规则确定支付相应的服务费用；
+                    （5）如您存在违反本协议、相关规则或法律法规规定的其他行为。
+             
+            三、本网站的服务内容
+                    3.1本网站通过本网站以及本网站的子网站或其他渠道和方式等向您提供以下服务中的一项或多项：（1）公布产品信息；（2）公布交易机会；（3）为交易完成提供技术服务与支持；（4）其他相关服务。
+                    3.2本网站向您提供的服务的具体内容、是否收取服务费及费用的具体标准和规则，由本公司与您另行签署的具体协议以及本网站公布的具体相关规则确定。
+            3.3 除本公司与您签署的具体协议另有约定外，本网站向您发出的任何通知、资料、文件等基于本协议或本网站服务产生的信息，您同意本网站可通过网站公告、电子邮件、短信、站内信或其他有效方式发送前述信息，信息自发送之日视为已送达您。如因信息传输、您未能在发送之前提交最新的电子邮件或手机号码等原因导致您未能在发送当日收到该等信息，本公司及本网站无需承担任何责任。
+             
+            四、权利及义务
+            4.1本网站的所有内容，包括但不限于文本、数据、图片、音频、视频、源代码和其他所有信息，均由本网站享有知识产权。未经本网站事先书面同意，您或其他任何人不得复制、改编、传播、公布、展示或以任何其他方式侵犯本网站的知识产权。
+            4.2您有权利拥有自己在本网站的用户名及登录密码、交易密码，并有权利使用自己的用户名及密码随时登录本网站；且您不得以任何形式擅自转让或授权他人使用自己在本网站的用户名和密码，否则由此产生的不利后果将由您自身承担。
+            4.3本网站有义务依据本协议及本网站公布的规则为您提供优质的交易信息及金融信息服务，并提供相应的技术服务维护您的交易安全。
+             
+            五、免责
+            5.1若因客户、银行、支付机构或其他合作机构原因（包括但不限于客户、银行、支付机构、合作机构系统故障、操作失误等），造成操作或交易失败，本网站对此不负任何责任。
+            5.2您在选择本网站服务时应直接登录本网站（域名：www.gxyclub.com），不应通过邮件或其他网站提供的链接登录，否则由此造成的风险和损失将由您自行承担。
+            5.3本网站内容可能涉及或链接到由第三方所有、控制或者运营的其他网站（第三方网站）。本网站不能保证也没有义务保证第三方网站上的信息的真实性和有效性。您确认按照第三方网站的注册协议而非本协议使用第三方网站，第三方网站的内容、产品、广告和其他任何信息均由您自行判断并承担风险。
+            5.4您确认知悉并同意，出现如下情形时，本网站无需对服务中断或无法及时、安全、准确地提供服务或无法根据本协议提供服务承担任何责任：
+            （1）本网站进行升级或维护的；
+            （2）电信网络出现不能进行、不能正确进行或不能完整进行数据传输等问题的；
+            （3）由于黑客攻击、网络供应商故障的问题等原因而造成的本网站服务中断或延迟；
+            （4）因包括但不限于台风、地震、海啸、洪水、停电、战争、恐怖袭击或其他根据互联网惯例所认定之不可抗力之因素，造成本网站不能提供服务的；
+            （5）其他非因本公司/本网站的原因影响本网站提供服务的情形。
+             
+            六、用户信息的保护及披露
+            6.1 您同意本网站在业务运营中使用诸如“Cookies”等资料收集装置收集和储存您的用户信息，包括但不限于您自行提供的资料和信息，以及本网站自行收集、取得的您在本网站的交易记录和使用信息等。本网站收集和储存您的用户信息的主要目的在于提高为您提供服务的效率和质量。
+            6.2 您同意本网站在业务运营中使用您的用户信息，您授予本公司永久的、免费的及完整的许可使用权利（并且有权对该权利进行再授权），使本公司有权在不涉及和泄露用户隐私情况下使用您的数据参与制作其派生产品，例如但不限于市场调研、消费分析等，以已知或日后开发的任何形式的媒体、技术或纳入其他作品里。
+            6.3 您同意本网站可通过人工或自动程序对您的个人资料进行管理和必要审查，以防止利用本网站进行欺诈等非法行为的发生。
+             
+            七、用户隐私权
+            7.1 本网站不公开您的注册信息及其他个人信息，将采用行业标准惯例以保护您的用户信息。但您应了解，任何保护措施均可能受限于技术水平限制而不能确保您的信息不会通过本协议中未列明的途径泄露出去，本网站不承担因此而导致的任何损失或责任。
+            7.2 在下列情况下，本网站有权全部或部分披露您的保密信息：
+            （1）根据法律规定，或应行政机关、司法机关要求，向第三人或行政机关、司法机关披露；
+                    （2）如您系权利人并针对他人在本网站上侵犯您利益的行为提起投诉，应被投诉人要求，向被投诉人披露；
+            （3）权利人认为您在本网站上的行为侵犯其合法权利并提出投诉的，可向权利人披露；
+            （4）您出现违反本网站规则，需要向第三方披露的；
+            （5）根据法律和本网站规则，本网站因提供服务需要披露或其他本网站认为适合披露的。
+             
+            八、其他
+            8.1若有本协议未规定的内容或因法律法规发生变化产生的争议或因履行本协议发生的争议，双方应按法律规定或者本着诚实信用原则协商解决。因履行本协议发生的争议，适用中华人民共和国法律解决，由本公司所在地有管辖权的人民法院诉讼解决。
+            8.2若本协议的部分条款被认定为无效或者无法实施时，本协议中的其他条款仍然有效。
+            8.3本网站可将本协议项下的权利义务转让给本网站的关联方。
+                       8.4本协议签订地为中国深圳市南山区。
+    </div>
+  </div>
+</div>
+
+	 <div class="bg"></div>
+
+	 <div class="registContent"> 
+        <input class="username" type="text" placeholder="请输入登录用户名，不能以数字开头">
+        <input class="userphonenumber" type="text" placeholder="请填写手机号码">
+        <div class="code">
+             <input class="registCode" type="text" placeholder="请输入验证码" style="float:left;width:140px">
+             <div style="float:left"><a href="#" class="button button-fill button-danger getCode" id="getCode">获取验证码</a></div>
+        </div>
+        <input class="userpassword" type="text" placeholder="请设置登录密码">
+
+        <div class="xieyi">
+          <input class="isAgree" name="Fruit" type="checkbox" value="同意"  checked="checked"/><font size="4">同意</font>
+          <a href="" class="clickXieyi">用户注册协议</a>
+        </div>
+
+        <div class="xieyi">
+            <font size="4">完成注册即可获得1000元红包</font>
+        </div>
+
+        <div class="xieyi">
+            <a href="#" class="button button-fill button-danger" style="width:200px;height:46px;line-height:46px" id="goRegist"><font size="5">开启千元红包</font></a>
+        </div>
+
+   </div>
+
+    <div class="page page-current">
+    	<div class="content infinite-scroll" data-distance="100" style="line-height: 0;">
+    		<CENTER>
+    			<img src="LuckyHeader.jpg" class="headerImage"/>
+    			<div class="bgDiv">
+    					<p><img src="Regist.jpg" id="Regist"></p>
+    			</div>
+    		</CENTER>		
+    	</div>
+    </div>
+
+	<script type="text/javascript" src='dist/js/jquery.js' charset='utf-8'></script>
+	<script type="text/javascript" src='dist/js/light7.js' charset='utf-8'></script>
+
+	<script type="text/javascript">
+
+  		$(document).ready(function(){
+
+ 			$("#Regist").click(function(){
+  				$(".bg").fadeIn(200);
+          $(".registContent").fadeIn(400);
+ 			});
+
+      $(".bg").click(function(){
+          $(".bg").fadeOut(400);
+          $(".registContent").fadeOut(200);
+      });
+
+      $(".clickXieyi").click(function(){
+          $.router.loadPage("#chakanxieyi");
+      });
+
+      $("#goRegist").click(function(){
+          
+         var userName  = $(".username").val();
+         var userPassword  = $(".userpassword").val();
+         var registCode  = $(".registCode").val();
+         var userPhoneNumber  = $(".userphonenumber").val();
+
+          if (userName == "") {
+              $.alert("请输入用户名");
+              return;
+          };
+          if (userPhoneNumber == "") {
+              $.alert("请输入用户注册的手机号码");
+              return;
+          };
+           if (registCode == "") {
+              $.alert("请输入验证码");
+              return;
+          };
+          if (userPassword == "") {
+              $.alert("请输入用户登录密码");
+              return;
+          };
+          if ( $(".isAgree").is( ":checked" ) ) {
+              
+          } else {
+              $.alert('请同意用户注册协议！');
+          }
+
+          // 开始注册发送数据到后台
+          $.alert("注册成功");
+      });
+ 			
+      $("#getCode").click(function(){
+          $.alert('获取验证码了');
+      });
+		});
+  	</script>
+
+  </body>
+</html>
